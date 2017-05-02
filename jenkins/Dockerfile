@@ -27,9 +27,8 @@ RUN apt-get update && \
     apt-get clean
 
 USER jenkins
-mkdir -p ~/.ssh
+RUN mkdir -p ~/.ssh
 COPY init/id_rsa.pub ~/.ssh/id_rsa.pub
-RUN chmod 700 ~/.ssh
 
 # You can use Jenkins API to generate the list of plugins from a running
 # Jenkins instance:
