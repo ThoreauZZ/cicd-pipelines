@@ -141,3 +141,4 @@ workflow-step-api:2.9
 workflow-support:2.13
 ws-cleanup:0.32
 cobertura:1.10
+active-choices-plugin:1.5.3
