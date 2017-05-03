@@ -1,4 +1,4 @@
-FROM jenkins:2.46.2
+FROM jenkins:2.19.1
 ARG gituser=changeme
 ARG gitpass=changeme
 
@@ -38,4 +38,3 @@ COPY init/id_rsa.pub ~/.ssh/id_rsa.pub
 #    jq -r '.plugins[] | .shortName +":"+ .version' | sort > plugins.txt
 #
 RUN install-plugins.sh $( paste -sd' ' /usr/share/jenkins/plugins.txt )
-
