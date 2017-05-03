@@ -19,7 +19,7 @@ blueocean-i18n:1.0.1
 blueocean-jwt:1.0.1
 blueocean-personalization:1.0.1
 blueocean-pipeline-api-impl:1.0.1
-blueocean-pipeline-editor:1.0.1
+blueocean-pipeline-editor:0.2.0
 blueocean-rest:1.0.1
 blueocean-rest-impl:1.0.1
 blueocean-web:1.0.1
