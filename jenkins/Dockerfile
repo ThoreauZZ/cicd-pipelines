@@ -1,4 +1,4 @@
-FROM jenkins:2.19.1
+FROM jenkins:2.46.2
 ARG gituser=changeme
 ARG gitpass=changeme
 
